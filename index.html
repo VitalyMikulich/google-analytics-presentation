@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Google Analytics?</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
+
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Google Analytics</h1>
+					<p>
+						<small>Created by <a href="https://github.com/VitalyMikulich">Vitaly Mikulich</a></small>
+					</p>
+				</section>
+				<section>
+					<section>
+						<h2>What Is Google Analytics</h2>
+						<p class="fragment">Google Analytics is a free Google product your web developer can install that collects visitor data from your website. This data is used to create reports that provide insight into how visitors are using your website.</p>
+					</section>
+					<section>
+						<h2>History</h2>
+						<ul style="font-size: 25px;">
+							<li class="fragment">Google acquired Urchin Software Corp. in April 2005.</li>
+							<li class="fragment">Since mid-August 2006 the service has been fully available to all users</li>
+							<li class="fragment">In April 2011 Google announced the availability of a new version of Google Analytics featuring multiple dashboards, more custom report options, and a new interface design.</li>
+							<li class="fragment">In October 2012 another new version of Google Analytics was announced, called 'Universal Analytics'. </li>
+							<li class="fragment">In March 2016, Google released Google Analytics 360, which is a software suite that provides analytics on return on investment and other marketing indicators.</li>
+							<li class="fragment">In October 2017 a new version of Google Analytics was announced, called Global Site Tag. </li>
+							<li class="fragment">In June 2018, Google introduced Google Marketing Platform, an online advertisement and analytics brand. </li>
+						</ul>
+					</section>
+					<section>
+						<h2>Google Analytics features include:</h2>
+						<ul style="font-size: 35px;">
+							<li class="fragment">Data visualization tools including a dashboard, scorecards and motion charts, which display changes in data over time.</li>
+							<li class="fragment">Segmentation for analysis of subsets, such as conversions.</li>
+							<li class="fragment">Custom reports.</li>
+							<li class="fragment">Email-based sharing and communication.</li>
+							<li class="fragment">Integration with other Google products, such as AdWords, Public Data Explorer and Website Optimizer.</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<img src="img/how-google-analytics-works.jpg" alt="How Google Analytics works">
+					</section>
+					<section>
+						<h2>Levels of data collected from your website</h2>
+						<ol>
+							<li class="fragment">User level (related to actions by each user)</li>
+							<li class="fragment">Session level (each individual visit)</li>
+							<li class="fragment">Pageview level (each individual page visited)</li>
+							<li class="fragment">Event level (button clicks, video views, etc)</li>
+						</ol>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>What are dimensions in Google Analytics?</h2>
+						<p>Dimensions are attributes of your data.</p>
+					</section>
+					<section>
+							<img src="img/dimensions.png" alt="Dimensions">
+					</section>
+					<section>
+						<h2>Examples of dimension:</h2>
+						<ul class="fragment">
+							<li>City</li>
+							<li>Device</li>
+							<li>Source/Medium</li>
+							<li>Campaign</li>
+							<li>Page</li>
+							<li>Goals</li>
+							<li>Products</li>
+						</ul>
+					</section>
+					<section>
+							<h2>What are metrics in Google Analytics?</h2>
+							<p>Metrics need dimensions, for context, otherwise, it’s just numbers.</p>
+					</section>
+					<section>
+							<img src="img/metrics.png" alt="Metrics">
+					</section>
+				</section>
+				<section>
+					<h3>What kind of data are available on Google Analytics, and what can you do with them?</h3>
+					<p class="fragment">There are two types of data that you can collect in Google Analytics:</p>
+					<ul class="fragment">
+						<li class="fragment">User Acquisition Data: data about your users before they visit your website</li>
+						<li class="fragment">User Behavior Data: data about your users when they visit your website</li>
+					</ul>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
